@@ -21,10 +21,13 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              href={email ? `mailto:${email}` : 'https://www.linkedin.com/in/dogukan-ermis/'}
             >
               {btn || "Let's Talk"}
             </a>
+          </div>
+          <div className="contact-wrapper">
+            <p className="contact-wrapper__text">info@dogukanermis.com</p>
           </div>
         </Fade>
       </Container>
