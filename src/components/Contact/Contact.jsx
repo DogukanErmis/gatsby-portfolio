@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
+import Swing from 'react-reveal/Swing';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
@@ -17,14 +18,16 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://www.linkedin.com/in/dogukan-ermis/'}
-            >
-              {btn || "Let's Talk"}
-            </a>
+            <Swing bottom duration={1000} delay={800} distance="30px">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta-btn cta-btn--resume"
+                href={email ? `mailto:${email}` : 'https://www.linkedin.com/in/dogukan-ermis/'}
+              >
+                {btn || "Let's Talk"}
+              </a>
+            </Swing>
           </div>
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">info@dogukanermis.com</p>
