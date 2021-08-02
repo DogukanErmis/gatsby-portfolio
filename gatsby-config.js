@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Dogukan Ermis - Web Application Developer`,
+        short_name: `Dogukan Ermis Website`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
