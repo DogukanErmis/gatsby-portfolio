@@ -7,7 +7,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { btn } = contact;
 
   return (
     <section id="contact">
@@ -15,22 +15,17 @@ const Contact = () => {
         <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
-            </p>
+            <p className="contact-wrapper__text">info@dogukanermis.com</p>
             <Swing bottom duration={1000} delay={800} distance="30px">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cta-btn cta-btn--resume"
-                href={email ? `mailto:${email}` : 'https://www.linkedin.com/in/dogukan-ermis/'}
+                href="mailto:info@dogukanermis.com"
               >
                 {btn || "Let's Talk"}
               </a>
             </Swing>
-          </div>
-          <div className="contact-wrapper">
-            <p className="contact-wrapper__text">info@dogukanermis.com</p>
           </div>
         </Fade>
       </Container>
