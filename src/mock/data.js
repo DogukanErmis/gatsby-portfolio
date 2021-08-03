@@ -57,7 +57,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'athomefinance1.png',
-    title: 'atHomeFinance',
+    title: 'atHome Finance',
     info: '',
     info2: '',
     url: 'https://www.athome.lu/en/finance/mortgage',
