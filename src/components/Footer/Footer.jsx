@@ -35,7 +35,7 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - Developed by{' '}
-          <a href="https://dogukanermis.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.dogukanermis.com" target="_blank" rel="noopener noreferrer">
             Dogukan Ermis
           </a>
         </p>
