@@ -58,7 +58,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Would you like to work with me?',
+  cta: '',
   btn: '',
   email: 'info@dogukanermis.com',
 };
