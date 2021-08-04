@@ -47,15 +47,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'immoregion1.png',
-    title: 'immoRegion.fr',
-    info: '',
-    info2: '',
-    url: 'https://www.immoregion.fr/',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'athomefinance1.png',
     title: 'atHome Finance',
     info: '',
