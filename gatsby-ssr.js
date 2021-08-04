@@ -1,13 +1,13 @@
-import React from 'react';
+const React = require('react');
 
-function onRenderBody({ setPostBodyComponents }) {
-  setPostBodyComponents([
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "4a3ff1fbfc4c45fb8f89616a4e3e44c3"}'
-    />,
-  ]);
-}
+const PostBodyAttributes = [
+  <script
+    defer
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "4a3ff1fbfc4c45fb8f89616a4e3e44c3"}'
+  />,
+];
 
-export default onRenderBody;
+exports.onRenderBody = ({ setPostBodyComponents }) => {
+  setPostBodyComponents(PostBodyAttributes);
+};
