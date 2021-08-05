@@ -38,17 +38,17 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  I&apos;m a Belgium based web application developer focused on crafting clean and
-                  user-friendly interfaces. I have done work in software development,
-                  front-end/back-end web and video game development.
+                  A Belgium-based web developer focused on crafting clean and user-friendly
+                  interfaces. I enjoy being challenged and engaging with projects that require me to
+                  work outside my comfort and knowledge set.
                 </p>
                 <p className="about-wrapper__info-text">
-                  I enjoy being challenged and engaging with projects that require me to work
-                  outside my comfort and knowledge set, as continuing to learn new languages and
-                  development techniques are important to me and the success of any organization.
+                  During my two years of experience in web development, I&apos;ve had the
+                  opportunity to work on some of Luxembourg&apos;s most popular websites such as
+                  atHome and Luxauto.
                 </p>
                 <p className="about-wrapper__info-text">
-                  <b>Skills</b>: JavaScript, TypeScript, ReactJS, Redux, NodeJS, SQL, HTML/CSS
+                  <b>Skills</b>: JavaScript, TypeScript, ReactJS, Redux, Node.js, SQL, HTML/CSS
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
