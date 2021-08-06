@@ -38,7 +38,7 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  A Belgium-based web developer focused on crafting clean and user-friendly
+                  I&apos;m a web application developer focused on crafting clean and user-friendly
                   interfaces. I enjoy being challenged and engaging with projects that require me to
                   work outside my comfort and knowledge set.
                 </p>
