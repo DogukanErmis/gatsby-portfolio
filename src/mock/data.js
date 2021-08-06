@@ -30,7 +30,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'athome1.png',
-    title: 'atHome.lu',
+    title: 'atHome',
     info: '',
     info2: '',
     url: 'https://www.athome.lu/',
@@ -39,7 +39,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'luxauto1.png',
-    title: 'Luxauto.lu',
+    title: 'Luxauto',
     info: '',
     info2: '',
     url: 'https://www.luxauto.lu/',
