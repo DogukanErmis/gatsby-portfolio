@@ -41,8 +41,8 @@ const About = () => {
                   Crafting user-friendly interfaces with an emphasis on performance and security.
                 </p>
                 <p className="about-wrapper__info-text">
-                  During my two years of experience in web development, I&apos;ve had the
-                  opportunity to work on some of Luxembourg&apos;s most popular websites.
+                  Two years of experience in web development working on Luxembourg&apos;s most
+                  popular websites.
                 </p>
                 <p className="about-wrapper__info-text">
                   <b>Skills</b>: JavaScript, TypeScript, ReactJS, Redux, Node.js, SQL, HTML/CSS
