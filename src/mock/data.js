@@ -31,8 +31,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'athome1.png',
     title: 'atHome',
-    info: '',
-    info2: '',
+    info: 'The no. 1 real estate portal in Luxembourg and Greater Region. Adverts for houses, apartments, offices.',
+    info2: 'ReactJS, Redux, JavaScript, TypeScript',
     url: 'https://www.athome.lu/',
     repo: '', // if no repo, the button will not show up
   },
@@ -40,8 +40,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'luxauto1.png',
     title: 'Luxauto',
-    info: '',
-    info2: '',
+    info: 'Purchase and sale of used cars in Luxembourg, France, Belgium and Germany. Adverts for cars, vehicles, motorbikes.',
+    info2: 'JavaScript, PHP, SQL',
     url: 'https://www.luxauto.lu/',
     repo: '', // if no repo, the button will not show up
   },
@@ -49,8 +49,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'athomefinance1.png',
     title: 'atHome Finance',
-    info: '',
-    info2: '',
+    info: 'atHomeFinance helps you to find the best home loan at a great rate.',
+    info2: 'React, PHP',
     url: 'https://www.athome.lu/en/finance/mortgage',
     repo: '', // if no repo, the button will not show up
   },
