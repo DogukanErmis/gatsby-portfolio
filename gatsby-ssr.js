@@ -5,7 +5,7 @@ function onRenderBody({ setPostBodyComponents }) {
     <script
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "4a3ff1fbfc4c45fb8f89616a4e3e44c3"}'
+      data-cf-beacon='{"token": "e560681283bc4ff99a3edb0633301bf7"}'
     />,
   ]);
 }
