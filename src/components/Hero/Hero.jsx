@@ -28,7 +28,7 @@ const Header = () => {
           <h1 className="hero-title">
             <span className="text-color-main">Dogukan Ermis</span>
             <br />
-            Web Application Developer
+            Software Developer
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">

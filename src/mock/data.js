@@ -2,17 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Dogukan Ermis - Web Application Developer', // e.g: 'Name | Developer'
+  title: 'Dogukan Ermis - Software Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description:
-    'Dogukan Ermis, Web application developer based in Belgium - Personal Website and Portfolio', // e.g: Welcome to my website
+  description: 'Personal Website of Dogukan Ermis, Software Developer based in Belgium.', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: ' ',
   name: 'Dogukan Ermis',
-  subtitle: 'Web Application Developer',
+  subtitle: 'Software Developer',
   cta: '',
 };
 

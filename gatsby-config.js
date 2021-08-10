@@ -21,7 +21,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Dogukan Ermis - Web Application Developer`,
+        name: `Dogukan Ermis - Software Developer`,
         short_name: `Dogukan Ermis Website`,
         start_url: `/`,
         background_color: `#fff`,
