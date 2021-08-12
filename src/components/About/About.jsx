@@ -45,7 +45,10 @@ const About = () => {
                   popular websites.
                 </p>
                 <p className="about-wrapper__info-text">
-                  <b>Skills</b>: JavaScript, TypeScript, ReactJS, Redux, Node.js, SQL, HTML/CSS
+                  <b>Skills</b>: JavaScript, ReactJS, Redux, Node.js, SQL, PHP, HTML/CSS
+                </p>
+                <p className="about-wrapper__info-text">
+                  <b>Learning</b>: TypeScript, Golang
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
