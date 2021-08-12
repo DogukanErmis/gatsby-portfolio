@@ -22,7 +22,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://www.dogukanermis.com'}
+                  href={url || 'https://dogukanermis.com'}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <p className="footer__text">
           © {new Date().getFullYear()} - Developed by{' '}
-          <a href="https://www.dogukanermis.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://dogukanermis.com" target="_blank" rel="noopener noreferrer">
             Dogukan Ermis
           </a>
         </p>
