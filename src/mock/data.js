@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'dogukan.ermis@pm.me',
+  email: 'info@dogukanermis.com',
 };
 
 // FOOTER DATA
@@ -78,7 +78,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'envelope',
-      url: 'mailto:dogukan.ermis@pm.me',
+      url: 'mailto:info@dogukanermis.com',
     },
   ],
 };

@@ -15,13 +15,13 @@ const Contact = () => {
         <Title title="Contact" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <p className="contact-wrapper__text">dogukan.ermis@pm.me</p>
+            <p className="contact-wrapper__text">info@dogukanermis.com</p>
             <Swing bottom duration={1000} delay={800} distance="30px">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cta-btn cta-btn--resume"
-                href="mailto:dogukan.ermis@pm.me"
+                href="mailto:info@dogukanermis.com"
               >
                 {btn || "Let's Talk"}
               </a>
