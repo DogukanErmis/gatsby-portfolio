@@ -4,7 +4,8 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Dogukan Ermis - Software Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Personal Website of Dogukan Ermis, Software Developer based in Belgium.', // e.g: Welcome to my website
+  description:
+    'Crafting user-friendly interfaces with an emphasis on performance and security with two years of experience in web development working on Luxembourg&apos;s most popular websites.',
 };
 
 // HERO DATA
