@@ -38,10 +38,8 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  Crafting user-friendly interfaces with an emphasis on performance and security.
-                </p>
-                <p className="about-wrapper__info-text">
-                  Two years of experience in web development working on Luxembourg&apos;s most
+                  Crafting user-friendly interfaces with an emphasis on performance and security
+                  with two years of experience in web development working on Luxembourg&apos;s most
                   popular websites.
                 </p>
                 <p className="about-wrapper__info-text">
