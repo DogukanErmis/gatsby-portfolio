@@ -4,8 +4,10 @@ import App from '../components/App';
 import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/700.css';
 
-export default () => {
+const Index = () => {
   const { title, lang, description } = headData;
 
   return (
@@ -20,3 +22,5 @@ export default () => {
     </>
   );
 };
+
+export default Index;
