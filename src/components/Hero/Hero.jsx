@@ -1,13 +1,9 @@
-import React, { useContext, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
-import PortfolioContext from '../../context/context';
 
 const Header = () => {
-  const { hero } = useContext(PortfolioContext);
-  const { cta } = hero;
-
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -33,8 +29,8 @@ const Header = () => {
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
-            <Link to="about" smooth duration={1000} className="cta-btn cta-btn--hero">
-              {cta || 'Know more'}
+            <Link to="about" className="cta-btn cta-btn--hero">
+              Know more
             </Link>
           </p>
         </Fade>
