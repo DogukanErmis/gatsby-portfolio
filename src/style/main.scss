@@ -22,4 +22,4 @@
 
 @import '~@fontsource/montserrat/scss/mixins';
 
-@include fontFace($weight: 700, $display: fallback, $fontDir: '~@fontsource/montserrat/files');
+@include fontFace($weight: 700, $display: swap, $fontDir: '~@fontsource/montserrat/files');
