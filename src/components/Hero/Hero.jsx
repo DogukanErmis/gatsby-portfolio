@@ -20,7 +20,14 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
+        <Fade
+          left={isDesktop}
+          bottom={isMobile}
+          duration={1000}
+          delay={500}
+          distance="30px"
+          ssrFadeout
+        >
           <h1 className="hero-title">
             <span className="text-color-main">Dogukan Ermis</span>
             <br />
