@@ -1,11 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import App from '../components/App';
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/700.css';
 import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
-import '@fontsource/montserrat/400.css';
-import '@fontsource/montserrat/700.css';
 
 const Index = () => {
   const { title, lang, description } = headData;
