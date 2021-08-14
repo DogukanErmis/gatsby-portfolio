@@ -16,3 +16,7 @@
 @import './sections/projects';
 
 @import './vendor/css/font-awesome.min.css';
+
+@import '~@fontsource/montserrat/scss/mixins';
+
+@include fontFace($weight: 700, $display: block, $fontDir: '~@fontsource/montserrat/files');
