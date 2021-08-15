@@ -50,7 +50,7 @@ export const projectsData = [
     img: 'athomefinance1.png',
     title: 'atHome Finance',
     info: 'atHomeFinance helps you to find the best home loan at a great rate.',
-    info2: 'React, PHP',
+    info2: 'ReactJS, PHP',
     url: 'https://www.athome.lu/en/finance/mortgage',
     repo: '', // if no repo, the button will not show up
   },
