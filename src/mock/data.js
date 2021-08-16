@@ -31,7 +31,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'athome1.png',
     title: 'atHome',
-    info: 'Improvement of the property detail page of the most popular real estate portal in Luxembourg and Greater Region.',
+    info: 'Bug fixes and improvement of the most popular real estate portal in Luxembourg and Greater Region.',
     info2: 'ReactJS, Redux, JavaScript, TypeScript',
     url: 'https://www.athome.lu/',
     repo: '', // if no repo, the button will not show up
