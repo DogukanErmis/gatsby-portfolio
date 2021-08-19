@@ -83,8 +83,3 @@ export const footerData = {
     },
   ],
 };
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
-};
