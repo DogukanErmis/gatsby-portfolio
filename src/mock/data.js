@@ -1,13 +1,5 @@
 import { nanoid } from 'nanoid';
 
-// HEAD DATA
-export const headData = {
-  title: 'Dogukan Ermis - Software Developer', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description:
-    'Crafting user-friendly interfaces with an emphasis on performance and security. Worked on Luxembourg&apos;s most popular websites.',
-};
-
 // HERO DATA
 export const heroData = {
   title: ' ',

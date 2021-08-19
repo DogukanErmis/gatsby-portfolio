@@ -3,24 +3,22 @@ import { Helmet } from 'react-helmet';
 import App from '../components/App';
 import '@fontsource/montserrat/400.css';
 import '@fontsource/montserrat/700.css';
-import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
-const Index = () => {
-  const { title, lang, description } = headData;
-
-  return (
-    <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>{title || 'Dogukan Ermis - Software Developer'}</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Dogukan Ermis - Software Developer'} />
-      </Helmet>
-      <App />
-    </>
-  );
-};
+const Index = () => (
+  <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Dogukan Ermis - Software Developer</title>
+      <html lang="en" />
+      <meta
+        name="description"
+        content="Crafting user-friendly interfaces with an emphasis on performance and security. Worked on Luxembourg's most popular websites."
+      />
+    </Helmet>
+    <App />
+  </>
+);
 
 export default Index;
