@@ -1,11 +1,26 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
-import PortfolioContext from '../../context/context';
+import { nanoid } from 'nanoid';
 
 const Footer = () => {
-  const { footer } = useContext(PortfolioContext);
-  const { networks } = footer;
+  const networks = [
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/dogukan-ermis/',
+    },
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/dogukanermis/',
+    },
+    {
+      id: nanoid(),
+      name: 'envelope',
+      url: 'mailto:info@dogukanermis.com',
+    },
+  ];
 
   return (
     <footer className="footer navbar-static-bottom">
