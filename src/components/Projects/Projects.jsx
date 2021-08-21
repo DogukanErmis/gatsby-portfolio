@@ -12,7 +12,7 @@ const Projects = () => {
       id: nanoid(),
       img: 'athome1.png',
       title: 'atHome',
-      info: 'Bug fixes and improvement of the most popular real estate portal in Luxembourg and Greater Region.',
+      info: 'Bug fixes and improvement of the most popular real estate portal in Luxembourg.',
       info2: 'ReactJS, Redux, JavaScript, TypeScript',
       url: 'https://www.athome.lu/',
       repo: '', // if no repo, the button will not show up
@@ -21,7 +21,7 @@ const Projects = () => {
       id: nanoid(),
       img: 'luxauto1.png',
       title: 'Luxauto',
-      info: 'Development of the new user profile page and the new vehicle publishing feature leading to a 30% increase in revenue for the brand.',
+      info: 'Development of the user profile page and the new vehicle publishing feature leading to a 30% increase in revenue for the brand.',
       info2: 'JavaScript, PHP, SQL',
       url: 'https://www.luxauto.lu/',
       repo: '', // if no repo, the button will not show up
