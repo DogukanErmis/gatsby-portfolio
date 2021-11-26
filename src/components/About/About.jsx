@@ -37,7 +37,7 @@ const About = () => {
                   Crafting user-friendly interfaces with an emphasis on performance and security.
                 </p>
                 <p className="about-wrapper__info-text">
-                  Two years of experience in web development working on Luxembourg&apos;s most
+                  Three years of experience in web development working on Luxembourg&apos;s most
                   popular websites.
                 </p>
                 <p className="about-wrapper__info-text">
