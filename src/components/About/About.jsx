@@ -53,7 +53,7 @@ const About = () => {
                     className="cta-btn cta-btn--resume"
                     href="https://www.linkedin.com/in/dogukan-ermis/"
                   >
-                    Resume
+                    My LinkedIn
                   </a>
                 </span>
               </div>
