@@ -48,6 +48,7 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   <u>Methods:</u> Agile, Clean Code, TDD, FP
                 </p>
+                {/*
                 <span className="d-flex mt-3">
                   <a
                     target="_blank"
@@ -58,6 +59,7 @@ const About = () => {
                     Link to my CV
                   </a>
                 </span>
+                */}
               </div>
             </Fade>
           </Col>
