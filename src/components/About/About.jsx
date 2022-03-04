@@ -42,10 +42,11 @@ const About = () => {
                   popular websites.
                 </p>
                 <p className="about-wrapper__info-text">
-                  <u>Skills:</u> JavaScript, ReactJS, Redux, Node.js, SQL, MongoDB, PHP, HTML/CSS
+                  <u>Skills:</u> JavaScript, TypeScript, React, Node.js, Java (Spring, Hibernate),
+                  SQL, MongoDB, PHP
                 </p>
                 <p className="about-wrapper__info-text">
-                  <u>Learning:</u> TypeScript, Go
+                  <u>Methods:</u> Agile, Clean Code, TDD, FP
                 </p>
                 <span className="d-flex mt-3">
                   <a
